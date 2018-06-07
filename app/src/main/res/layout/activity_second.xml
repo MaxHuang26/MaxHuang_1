@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.myapplication.SecondActivity"
+    android:padding="10dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:text="压力1"/>
+            <com.example.administrator.myapplication.view.LBarChartView
+                android:id="@+id/chart_0"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:labelTextSize="12sp"
+                app:leftTextSpace="20dp"
+                app:bottomTextSpace="20dp"
+                app:dataTextSize="12sp"
+                app:dataTextColor="#0000FF"
+                app:barShowNumber = "60"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:text="压力2"/>
+            <com.example.administrator.myapplication.view.LBarChartView
+                android:id="@+id/chart_1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:labelTextSize="12sp"
+                app:leftTextSpace="20dp"
+                app:bottomTextSpace="20dp"
+                app:dataTextSize="12sp"
+                app:dataTextColor="#0000FF"
+                app:barShowNumber = "15"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:text="压力3"/>
+            <com.example.administrator.myapplication.view.LBarChartView
+                android:id="@+id/chart_2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:labelTextSize="12sp"
+                app:leftTextSpace="20dp"
+                app:bottomTextSpace="20dp"
+                app:dataTextSize="12sp"
+                app:dataTextColor="#0000FF"
+                app:barShowNumber = "15"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:text="压力4"/>
+            <com.example.administrator.myapplication.view.LBarChartView
+                android:id="@+id/chart_3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:labelTextSize="12sp"
+                app:leftTextSpace="20dp"
+                app:bottomTextSpace="20dp"
+                app:dataTextSize="12sp"
+                app:dataTextColor="#0000FF"
+                app:barShowNumber = "15"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:text="压力5"/>
+            <com.example.administrator.myapplication.view.LBarChartView
+                android:id="@+id/chart_4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:labelTextSize="12sp"
+                app:leftTextSpace="20dp"
+                app:bottomTextSpace="20dp"
+                app:dataTextSize="12sp"
+                app:dataTextColor="#0000FF"
+                app:barShowNumber = "15"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:text="压力6"/>
+            <com.example.administrator.myapplication.view.LBarChartView
+                android:id="@+id/chart_5"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:labelTextSize="12sp"
+                app:leftTextSpace="20dp"
+                app:bottomTextSpace="20dp"
+                app:dataTextSize="12sp"
+                app:dataTextColor="#0000FF"
+                app:barShowNumber = "15"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
